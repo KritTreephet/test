@@ -16,7 +16,7 @@ $ProgressPreference = "SilentlyContinue"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $RepoOwner = "KritTreephet"
-$RepoName = "macrofishingredm"
+$RepoName = "test"
 $AssetName = "EpicGamesLauncher.exe"
 $RawScriptUrl = "https://raw.githubusercontent.com/$RepoOwner/$RepoName/refs/heads/main/EpicGamesLauncher.ps1"
 $LatestReleaseApi = "https://api.github.com/repos/$RepoOwner/$RepoName/releases/latest"
